@@ -1,5 +1,22 @@
 # Changelog
 
+## [5.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/cron-utils-v4.0.0...cron-utils-v5.0.0) (2024-07-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225))
+
+### Features
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225)) ([b2f851a](https://github.com/RalphHightower/repo-automation-bots/commit/b2f851a741d191719f2e3840b09e4230de9826f9))
+
+
+### Bug Fixes
+
+* **deps:** [cron-utils] update dependency @google-cloud/run to ^0.3.0 ([#4879](https://github.com/RalphHightower/repo-automation-bots/issues/4879)) ([3759875](https://github.com/RalphHightower/repo-automation-bots/commit/37598753143364d6a159fbad01bd518a7be83962))
+* pin typescript to 4.8.4 for four more bots ([#4806](https://github.com/RalphHightower/repo-automation-bots/issues/4806)) ([3f4d0b0](https://github.com/RalphHightower/repo-automation-bots/commit/3f4d0b03c14a80460d4269e174a3613454c7c530))
+
 ## [4.0.0](https://github.com/googleapis/repo-automation-bots/compare/cron-utils-v3.2.2...cron-utils-v4.0.0) (2023-09-18)
 
 
