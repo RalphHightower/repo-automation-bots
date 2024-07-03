@@ -87,6 +87,34 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [16.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/gcf-utils-v15.0.1...gcf-utils-v16.0.0) (2024-07-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* require node 18
+* remove `addOrUpdateIssueComment` which is moved to issue-utils.
+
+### Features
+
+* **gcf-utils:** store the payload to gcs only when the body is too big ([#4703](https://github.com/RalphHightower/repo-automation-bots/issues/4703)) ([9c93052](https://github.com/RalphHightower/repo-automation-bots/commit/9c93052e3337406eaedd8e2a322d4e8f468fd649))
+* remove `addOrUpdateIssueComment` which is moved to issue-utils. ([057125e](https://github.com/RalphHightower/repo-automation-bots/commit/057125e0fe11d6a6b6b2498e27a1cdb87b404593))
+* require node 18 ([057125e](https://github.com/RalphHightower/repo-automation-bots/commit/057125e0fe11d6a6b6b2498e27a1cdb87b404593))
+
+
+### Bug Fixes
+
+* **deps:** [gcf-utils] update dependency @google-cloud/run to ^0.3.0 ([#4881](https://github.com/RalphHightower/repo-automation-bots/issues/4881)) ([753b3a3](https://github.com/RalphHightower/repo-automation-bots/commit/753b3a3e8882b372d8287118521d9171ef7c53dd))
+* **deps:** [gcf-utils] update dependency @octokit/plugin-enterprise-compatibility to v2.0.3 ([#4568](https://github.com/RalphHightower/repo-automation-bots/issues/4568)) ([3b0c6bc](https://github.com/RalphHightower/repo-automation-bots/commit/3b0c6bcff3759d900708d7120f138f7feed488b0))
+* **deps:** [gcf-utils] update dependency @types/uuid to v9 ([#4759](https://github.com/RalphHightower/repo-automation-bots/issues/4759)) ([a951ab7](https://github.com/RalphHightower/repo-automation-bots/commit/a951ab774d0dc9bba1d712987c01f1a73d0d2443))
+* **deps:** use google-gax v3.5.2 ([#4650](https://github.com/RalphHightower/repo-automation-bots/issues/4650)) ([b01f8a6](https://github.com/RalphHightower/repo-automation-bots/commit/b01f8a64edd6b11f10bb513c858381469644185f))
+* getAuthenticatedOctokit is a standalone method ([#5235](https://github.com/RalphHightower/repo-automation-bots/issues/5235)) ([0f95e5a](https://github.com/RalphHightower/repo-automation-bots/commit/0f95e5a7f5cb906b3ec11a9948400476ada156a5))
+* lock the version of typescript to 4.8.4 ([#4800](https://github.com/RalphHightower/repo-automation-bots/issues/4800)) ([add7f46](https://github.com/RalphHightower/repo-automation-bots/commit/add7f4637ff6533308b0e5164ab0a4fe9486e3db))
+* logger.child() should preserve original bindings ([#4686](https://github.com/RalphHightower/repo-automation-bots/issues/4686)) ([9575fa2](https://github.com/RalphHightower/repo-automation-bots/commit/9575fa2484194f64dcfebe2c09343fcc7a1ea5f5))
+* report errors to error reporting only on the last retry attempt ([#4867](https://github.com/RalphHightower/repo-automation-bots/issues/4867)) ([d15cb54](https://github.com/RalphHightower/repo-automation-bots/commit/d15cb540aa7307d2f275a12d6ffecf8ef867d8f7))
+* update dependency on jsonwebtoken ([#4929](https://github.com/RalphHightower/repo-automation-bots/issues/4929)) ([325f171](https://github.com/RalphHightower/repo-automation-bots/commit/325f17191e2c102b53eff6673c0fdd2b10ed642d))
+* upgrade jsonwebtoken to 9.0.0 ([#4820](https://github.com/RalphHightower/repo-automation-bots/issues/4820)) ([ab1314f](https://github.com/RalphHightower/repo-automation-bots/commit/ab1314f4b72a86ec90ddf785d7a939ff5877153e))
+
 ## [15.0.1](https://github.com/googleapis/repo-automation-bots/compare/gcf-utils-v15.0.0...gcf-utils-v15.0.1) (2023-09-26)
 
 
