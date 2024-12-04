@@ -1,5 +1,24 @@
 # Changelog
 
+## [6.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/label-utils-v5.0.0...label-utils-v6.0.0) (2024-12-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update gcf-utils to v16 ([#5475](https://github.com/RalphHightower/repo-automation-bots/issues/5475))
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225))
+
+### Features
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225)) ([b2f851a](https://github.com/RalphHightower/repo-automation-bots/commit/b2f851a741d191719f2e3840b09e4230de9826f9))
+
+
+### Bug Fixes
+
+* **deps:** update gcf-utils to v16 ([#5475](https://github.com/RalphHightower/repo-automation-bots/issues/5475)) ([c2ed8b5](https://github.com/RalphHightower/repo-automation-bots/commit/c2ed8b590390d6e1ed51b95e502f15919c57c3e4))
+* update gcf-utils to update dependency on jsonwebtoken ([#4919](https://github.com/RalphHightower/repo-automation-bots/issues/4919)) ([b1d4e4b](https://github.com/RalphHightower/repo-automation-bots/commit/b1d4e4bb9253420cfa8f8ad13f4ec3e9bb9548a3))
+* upgrade jsonwebtoken to 9.0.0 ([#4820](https://github.com/RalphHightower/repo-automation-bots/issues/4820)) ([ab1314f](https://github.com/RalphHightower/repo-automation-bots/commit/ab1314f4b72a86ec90ddf785d7a939ff5877153e))
+
 ## [5.0.0](https://github.com/googleapis/repo-automation-bots/compare/label-utils-v4.0.0...label-utils-v5.0.0) (2024-09-09)
 
 
