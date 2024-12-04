@@ -1,5 +1,25 @@
 # Changelog
 
+## [9.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/bot-config-utils-v8.0.0...bot-config-utils-v9.0.0) (2024-12-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update gcf-utils to v16 ([#5464](https://github.com/RalphHightower/repo-automation-bots/issues/5464))
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225))
+
+### Features
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225)) ([b2f851a](https://github.com/RalphHightower/repo-automation-bots/commit/b2f851a741d191719f2e3840b09e4230de9826f9))
+
+
+### Bug Fixes
+
+* **deps:** update gcf-utils to v16 ([#5464](https://github.com/RalphHightower/repo-automation-bots/issues/5464)) ([d9d19ce](https://github.com/RalphHightower/repo-automation-bots/commit/d9d19ce7a46c7b605ce46dc489c05c16bd8d7c9b))
+* pin typescript to 4.8.4 for four more bots ([#4806](https://github.com/RalphHightower/repo-automation-bots/issues/4806)) ([3f4d0b0](https://github.com/RalphHightower/repo-automation-bots/commit/3f4d0b03c14a80460d4269e174a3613454c7c530))
+* update gcf-utils to update dependency on jsonwebtoken ([#4919](https://github.com/RalphHightower/repo-automation-bots/issues/4919)) ([b1d4e4b](https://github.com/RalphHightower/repo-automation-bots/commit/b1d4e4bb9253420cfa8f8ad13f4ec3e9bb9548a3))
+* upgrade jsonwebtoken to 9.0.0 ([#4820](https://github.com/RalphHightower/repo-automation-bots/issues/4820)) ([ab1314f](https://github.com/RalphHightower/repo-automation-bots/commit/ab1314f4b72a86ec90ddf785d7a939ff5877153e))
+
 ## [8.0.0](https://github.com/googleapis/repo-automation-bots/compare/bot-config-utils-v7.0.0...bot-config-utils-v8.0.0) (2024-09-06)
 
 

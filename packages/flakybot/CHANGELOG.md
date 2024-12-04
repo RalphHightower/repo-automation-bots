@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.3](https://github.com/RalphHightower/repo-automation-bots/compare/flakybot-v1.2.2...flakybot-v1.2.3) (2024-12-04)
+
+
+### Bug Fixes
+
+* **deps:** [flakybot] update all non-major dependencies ([#4727](https://github.com/RalphHightower/repo-automation-bots/issues/4727)) ([1f78bfe](https://github.com/RalphHightower/repo-automation-bots/commit/1f78bfee14df85674b467bc6ed8f5a94683eb8e0))
+* **deps:** [flakybot] update module google.golang.org/api to v0.104.0 ([#4883](https://github.com/RalphHightower/repo-automation-bots/issues/4883)) ([113bae9](https://github.com/RalphHightower/repo-automation-bots/commit/113bae948778c744720f1a9834dc1a82f5e2bea6))
+* **deps:** [flakybot] update module google.golang.org/api to v0.106.0 ([#4923](https://github.com/RalphHightower/repo-automation-bots/issues/4923)) ([2677919](https://github.com/RalphHightower/repo-automation-bots/commit/2677919ef23ecf0990866cadf2cbaa44e1df062a))
+* **deps:** update to gcf-utils v16 ([#5481](https://github.com/RalphHightower/repo-automation-bots/issues/5481)) ([5a79218](https://github.com/RalphHightower/repo-automation-bots/commit/5a792185c8a27ef673f8667951539cb258ac40c7))
+* **flakybot:** skip archived repositories ([#4868](https://github.com/RalphHightower/repo-automation-bots/issues/4868)) ([912d781](https://github.com/RalphHightower/repo-automation-bots/commit/912d7813a3406bb3bd517e85b48e9a4f0f31c60a))
+* update base node image for flakybot to node:18-slim ([#5289](https://github.com/RalphHightower/repo-automation-bots/issues/5289)) ([15ba411](https://github.com/RalphHightower/repo-automation-bots/commit/15ba411cb15d89a32bc8fde20ba782248779e778))
+* update gcf-utils to update dependency on jsonwebtoken ([#4919](https://github.com/RalphHightower/repo-automation-bots/issues/4919)) ([b1d4e4b](https://github.com/RalphHightower/repo-automation-bots/commit/b1d4e4bb9253420cfa8f8ad13f4ec3e9bb9548a3))
+* upgrade jsonwebtoken to 9.0.0 ([#4820](https://github.com/RalphHightower/repo-automation-bots/issues/4820)) ([ab1314f](https://github.com/RalphHightower/repo-automation-bots/commit/ab1314f4b72a86ec90ddf785d7a939ff5877153e))
+
 ## [1.2.2](https://github.com/googleapis/repo-automation-bots/compare/flakybot-v1.2.1...flakybot-v1.2.2) (2024-09-27)
 
 
