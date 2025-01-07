@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.0",
-    "path-to-regexp": "^0.1.12",
+    "path-to-regexp": "^8.2.0",
     "probot": "^12.2.8"
   },
   "devDependencies": {
