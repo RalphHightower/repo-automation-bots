@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/git-file-utils-v2.0.0...git-file-utils-v3.0.0) (2025-01-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225))
+
+### Features
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225)) ([b2f851a](https://github.com/RalphHightower/repo-automation-bots/commit/b2f851a741d191719f2e3840b09e4230de9826f9))
+
+
+### Bug Fixes
+
+* **deps:** upgrade octokit types ([#4944](https://github.com/RalphHightower/repo-automation-bots/issues/4944)) ([bb852df](https://github.com/RalphHightower/repo-automation-bots/commit/bb852dfe8b2161481426f5202a7ecf1669072972))
+* handle empty repository as if it has no files ([#4863](https://github.com/RalphHightower/repo-automation-bots/issues/4863)) ([9c1d60e](https://github.com/RalphHightower/repo-automation-bots/commit/9c1d60ef624f476f661be27f6697a7af42a01f6a))
+* pin typescript to 4.8.4 for four more bots ([#4806](https://github.com/RalphHightower/repo-automation-bots/issues/4806)) ([3f4d0b0](https://github.com/RalphHightower/repo-automation-bots/commit/3f4d0b03c14a80460d4269e174a3613454c7c530))
+
 ## [2.0.0](https://github.com/googleapis/repo-automation-bots/compare/git-file-utils-v1.2.6...git-file-utils-v2.0.0) (2023-09-18)
 
 

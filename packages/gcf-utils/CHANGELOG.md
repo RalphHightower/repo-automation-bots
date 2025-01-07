@@ -87,6 +87,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [17.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/gcf-utils-v16.2.1...gcf-utils-v17.0.0) (2025-01-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update google-cloud library major versions ([#5463](https://github.com/RalphHightower/repo-automation-bots/issues/5463))
+* require node 18
+* remove `addOrUpdateIssueComment` which is moved to issue-utils.
+
+### Features
+
+* add ability to configure app to skip throttling on rate limits ([#5517](https://github.com/RalphHightower/repo-automation-bots/issues/5517)) ([fc03235](https://github.com/RalphHightower/repo-automation-bots/commit/fc0323503fb62dfa0873e58aaf2b701273103d0f))
+* allow overriding the service account for background tasks ([4667a4e](https://github.com/RalphHightower/repo-automation-bots/commit/4667a4e5a9989bafdc1699741b916dca8983a9bf))
+* handle BOT_NAME and BOT_LOCATION configuration via env ([#5583](https://github.com/RalphHightower/repo-automation-bots/issues/5583)) ([2bbb00c](https://github.com/RalphHightower/repo-automation-bots/commit/2bbb00c155f1eebfd55395964f105b1dd1742dcb))
+* remove `addOrUpdateIssueComment` which is moved to issue-utils. ([057125e](https://github.com/RalphHightower/repo-automation-bots/commit/057125e0fe11d6a6b6b2498e27a1cdb87b404593))
+* require node 18 ([057125e](https://github.com/RalphHightower/repo-automation-bots/commit/057125e0fe11d6a6b6b2498e27a1cdb87b404593))
+
+
+### Bug Fixes
+
+* **deps:** [gcf-utils] update dependency @google-cloud/run to ^0.3.0 ([#4881](https://github.com/RalphHightower/repo-automation-bots/issues/4881)) ([753b3a3](https://github.com/RalphHightower/repo-automation-bots/commit/753b3a3e8882b372d8287118521d9171ef7c53dd))
+* **deps:** [gcf-utils] update dependency @types/uuid to v9 ([#4759](https://github.com/RalphHightower/repo-automation-bots/issues/4759)) ([a951ab7](https://github.com/RalphHightower/repo-automation-bots/commit/a951ab774d0dc9bba1d712987c01f1a73d0d2443))
+* **deps:** lock octokit/graphql to commonjs version ([#5471](https://github.com/RalphHightower/repo-automation-bots/issues/5471)) ([47d51a3](https://github.com/RalphHightower/repo-automation-bots/commit/47d51a3b47f5176fc8c699ca0744d70a040e5569))
+* **deps:** update google-cloud library major versions ([#5463](https://github.com/RalphHightower/repo-automation-bots/issues/5463)) ([1319a61](https://github.com/RalphHightower/repo-automation-bots/commit/1319a6150545685487be5469b7ce7fa0d6ea469d))
+* ensure that Cloud Function URL uses underscored name of bot ([2bbb00c](https://github.com/RalphHightower/repo-automation-bots/commit/2bbb00c155f1eebfd55395964f105b1dd1742dcb))
+* getAuthenticatedOctokit is a standalone method ([#5235](https://github.com/RalphHightower/repo-automation-bots/issues/5235)) ([0f95e5a](https://github.com/RalphHightower/repo-automation-bots/commit/0f95e5a7f5cb906b3ec11a9948400476ada156a5))
+* handleScheduledRepository to skip suspended repositories ([#5539](https://github.com/RalphHightower/repo-automation-bots/issues/5539)) ([bf770a1](https://github.com/RalphHightower/repo-automation-bots/commit/bf770a16ed57f20ca0b0c498332d3509b78e31c4))
+* lock the version of typescript to 4.8.4 ([#4800](https://github.com/RalphHightower/repo-automation-bots/issues/4800)) ([add7f46](https://github.com/RalphHightower/repo-automation-bots/commit/add7f4637ff6533308b0e5164ab0a4fe9486e3db))
+* report errors to error reporting only on the last retry attempt ([#4867](https://github.com/RalphHightower/repo-automation-bots/issues/4867)) ([d15cb54](https://github.com/RalphHightower/repo-automation-bots/commit/d15cb540aa7307d2f275a12d6ffecf8ef867d8f7))
+* set default taskTargetName based on runtime environment ([#5585](https://github.com/RalphHightower/repo-automation-bots/issues/5585)) ([53ab7ec](https://github.com/RalphHightower/repo-automation-bots/commit/53ab7ecb05492b8f3cf46f0a77fbd88727dfffb0))
+* update dependency on jsonwebtoken ([#4929](https://github.com/RalphHightower/repo-automation-bots/issues/4929)) ([325f171](https://github.com/RalphHightower/repo-automation-bots/commit/325f17191e2c102b53eff6673c0fdd2b10ed642d))
+* upgrade jsonwebtoken to 9.0.0 ([#4820](https://github.com/RalphHightower/repo-automation-bots/issues/4820)) ([ab1314f](https://github.com/RalphHightower/repo-automation-bots/commit/ab1314f4b72a86ec90ddf785d7a939ff5877153e))
+
 ## [16.2.1](https://github.com/googleapis/repo-automation-bots/compare/gcf-utils-v16.2.0...gcf-utils-v16.2.1) (2024-11-26)
 
 
