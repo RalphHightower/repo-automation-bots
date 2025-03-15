@@ -1,5 +1,27 @@
 # Changelog
 
+## [8.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/datastore-lock-v7.0.0...datastore-lock-v8.0.0) (2025-03-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update gcf-utils to v17 ([#5695](https://github.com/RalphHightower/repo-automation-bots/issues/5695))
+* **deps:** update gcf-utils to v16 ([#5465](https://github.com/RalphHightower/repo-automation-bots/issues/5465))
+* **datastore-lock:** require node 18 ([#5223](https://github.com/RalphHightower/repo-automation-bots/issues/5223))
+
+### Features
+
+* add `withDatastoreLock()` helper ([#5057](https://github.com/RalphHightower/repo-automation-bots/issues/5057)) ([ec2c8e3](https://github.com/RalphHightower/repo-automation-bots/commit/ec2c8e3b2c87223835a5d3a4b4b7ce6fc7fe9286))
+* **datastore-lock:** require node 18 ([#5223](https://github.com/RalphHightower/repo-automation-bots/issues/5223)) ([b67de31](https://github.com/RalphHightower/repo-automation-bots/commit/b67de31561d1145ce6a111736b95dbb42612fdef))
+
+
+### Bug Fixes
+
+* **deps:** update gcf-utils to v16 ([#5465](https://github.com/RalphHightower/repo-automation-bots/issues/5465)) ([2507b12](https://github.com/RalphHightower/repo-automation-bots/commit/2507b1271380b30229c8d7a91c5ce7a3d3af1e86))
+* **deps:** update gcf-utils to v17 ([#5695](https://github.com/RalphHightower/repo-automation-bots/issues/5695)) ([0dbb4c6](https://github.com/RalphHightower/repo-automation-bots/commit/0dbb4c697894c78121bc37c37c31ab5d9158c0b6))
+* update gcf-utils to update dependency on jsonwebtoken ([#4919](https://github.com/RalphHightower/repo-automation-bots/issues/4919)) ([b1d4e4b](https://github.com/RalphHightower/repo-automation-bots/commit/b1d4e4bb9253420cfa8f8ad13f4ec3e9bb9548a3))
+* upgrade jsonwebtoken to 9.0.0 ([#4820](https://github.com/RalphHightower/repo-automation-bots/issues/4820)) ([ab1314f](https://github.com/RalphHightower/repo-automation-bots/commit/ab1314f4b72a86ec90ddf785d7a939ff5877153e))
+
 ## [7.0.0](https://github.com/googleapis/repo-automation-bots/compare/datastore-lock-v6.0.0...datastore-lock-v7.0.0) (2025-03-12)
 
 
