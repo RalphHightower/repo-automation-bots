@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.8.0](https://github.com/RalphHightower/repo-automation-bots/compare/mono-repo-publish-v1.7.0...mono-repo-publish-v1.8.0) (2025-05-08)
+
+
+### Features
+
+* update mono-repo-publish to leave a tarball for archiving ([#5015](https://github.com/RalphHightower/repo-automation-bots/issues/5015)) ([07e6b56](https://github.com/RalphHightower/repo-automation-bots/commit/07e6b56ae00b50b4ace823fa4f4c63e48570c7b1))
+
+
+### Bug Fixes
+
+* **deps:** npm audit fixes for several packages ([#4939](https://github.com/RalphHightower/repo-automation-bots/issues/4939)) ([a9a6755](https://github.com/RalphHightower/repo-automation-bots/commit/a9a67552a1cd0278a1b74383c988f099082e949f))
+* **logging:** better logging for publication failures ([#4999](https://github.com/RalphHightower/repo-automation-bots/issues/4999)) ([10ac19e](https://github.com/RalphHightower/repo-automation-bots/commit/10ac19e46eb17f169ff6b87bf257941dc1dd8910))
+* skip publishing private packages ([d982753](https://github.com/RalphHightower/repo-automation-bots/commit/d982753b2bdc68564e83a0d5dc31165affa8482c))
+
 ## [1.7.0](https://github.com/googleapis/repo-automation-bots/compare/mono-repo-publish-v1.6.4...mono-repo-publish-v1.7.0) (2023-03-28)
 
 
