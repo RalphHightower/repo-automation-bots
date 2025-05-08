@@ -1,5 +1,23 @@
 # Changelog
 
+## [6.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/cron-utils-v5.0.0...cron-utils-v6.0.0) (2025-05-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update gcf-utils to v16 ([#5464](https://github.com/RalphHightower/repo-automation-bots/issues/5464))
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225))
+
+### Features
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225)) ([b2f851a](https://github.com/RalphHightower/repo-automation-bots/commit/b2f851a741d191719f2e3840b09e4230de9826f9))
+
+
+### Bug Fixes
+
+* **deps:** [cron-utils] update dependency @google-cloud/run to ^0.3.0 ([#4879](https://github.com/RalphHightower/repo-automation-bots/issues/4879)) ([3759875](https://github.com/RalphHightower/repo-automation-bots/commit/37598753143364d6a159fbad01bd518a7be83962))
+* **deps:** update gcf-utils to v16 ([#5464](https://github.com/RalphHightower/repo-automation-bots/issues/5464)) ([d9d19ce](https://github.com/RalphHightower/repo-automation-bots/commit/d9d19ce7a46c7b605ce46dc489c05c16bd8d7c9b))
+
 ## [5.0.0](https://github.com/googleapis/repo-automation-bots/compare/cron-utils-v4.0.0...cron-utils-v5.0.0) (2024-09-06)
 
 
