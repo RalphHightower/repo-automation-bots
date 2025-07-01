@@ -1,5 +1,26 @@
 # Changelog
 
+## [7.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/label-utils-v6.0.0...label-utils-v7.0.0) (2025-07-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update @google-automations/datastore-lock to v7
+* **deps:** update gcf-utils to v17 ([#5697](https://github.com/RalphHightower/repo-automation-bots/issues/5697))
+* **deps:** update gcf-utils to v16 ([#5475](https://github.com/RalphHightower/repo-automation-bots/issues/5475))
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225))
+
+### Features
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225)) ([b2f851a](https://github.com/RalphHightower/repo-automation-bots/commit/b2f851a741d191719f2e3840b09e4230de9826f9))
+
+
+### Bug Fixes
+
+* **deps:** update @google-automations/datastore-lock to v7 ([2577f0c](https://github.com/RalphHightower/repo-automation-bots/commit/2577f0c639819bd65a3f1b7246f3a946218e0f79))
+* **deps:** update gcf-utils to v16 ([#5475](https://github.com/RalphHightower/repo-automation-bots/issues/5475)) ([c2ed8b5](https://github.com/RalphHightower/repo-automation-bots/commit/c2ed8b590390d6e1ed51b95e502f15919c57c3e4))
+* **deps:** update gcf-utils to v17 ([#5697](https://github.com/RalphHightower/repo-automation-bots/issues/5697)) ([2577f0c](https://github.com/RalphHightower/repo-automation-bots/commit/2577f0c639819bd65a3f1b7246f3a946218e0f79))
+
 ## [6.0.0](https://github.com/googleapis/repo-automation-bots/compare/label-utils-v5.0.0...label-utils-v6.0.0) (2025-03-12)
 
 
