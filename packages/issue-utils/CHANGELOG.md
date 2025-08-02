@@ -1,5 +1,26 @@
 # Changelog
 
+## [6.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/issue-utils-v5.0.0...issue-utils-v6.0.0) (2025-08-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update gcf-utils to v17 ([#5695](https://github.com/RalphHightower/repo-automation-bots/issues/5695))
+* **deps:** update gcf-utils to v16 ([#5464](https://github.com/RalphHightower/repo-automation-bots/issues/5464))
+* require node 18 ([#5219](https://github.com/RalphHightower/repo-automation-bots/issues/5219))
+
+### Features
+
+* migrate addOrUpdateIssueComment to issue-utils ([#5217](https://github.com/RalphHightower/repo-automation-bots/issues/5217)) ([b50f612](https://github.com/RalphHightower/repo-automation-bots/commit/b50f612c4a930dada11bae4e85e9b482fa4690f5))
+* require node 18 ([#5219](https://github.com/RalphHightower/repo-automation-bots/issues/5219)) ([69e904e](https://github.com/RalphHightower/repo-automation-bots/commit/69e904e17ae8e17a7ffb348ffde73250fb9e1788))
+
+
+### Bug Fixes
+
+* **deps:** update gcf-utils to v16 ([#5464](https://github.com/RalphHightower/repo-automation-bots/issues/5464)) ([d9d19ce](https://github.com/RalphHightower/repo-automation-bots/commit/d9d19ce7a46c7b605ce46dc489c05c16bd8d7c9b))
+* **deps:** update gcf-utils to v17 ([#5695](https://github.com/RalphHightower/repo-automation-bots/issues/5695)) ([0dbb4c6](https://github.com/RalphHightower/repo-automation-bots/commit/0dbb4c697894c78121bc37c37c31ab5d9158c0b6))
+* security vulnerability for form data indirect dependency ([#5870](https://github.com/RalphHightower/repo-automation-bots/issues/5870)) ([dda7955](https://github.com/RalphHightower/repo-automation-bots/commit/dda795521b72510f697e6e3165b38e37102d8930))
+
 ## [5.0.0](https://github.com/googleapis/repo-automation-bots/compare/issue-utils-v4.0.0...issue-utils-v5.0.0) (2025-03-12)
 
 
