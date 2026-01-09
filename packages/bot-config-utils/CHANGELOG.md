@@ -1,5 +1,25 @@
 # Changelog
 
+## [10.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/bot-config-utils-v9.0.0...bot-config-utils-v10.0.0) (2025-08-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update gcf-utils to v17 ([#5695](https://github.com/RalphHightower/repo-automation-bots/issues/5695))
+* **deps:** update gcf-utils to v16 ([#5464](https://github.com/RalphHightower/repo-automation-bots/issues/5464))
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225))
+
+### Features
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225)) ([b2f851a](https://github.com/RalphHightower/repo-automation-bots/commit/b2f851a741d191719f2e3840b09e4230de9826f9))
+
+
+### Bug Fixes
+
+* **deps:** update gcf-utils to v16 ([#5464](https://github.com/RalphHightower/repo-automation-bots/issues/5464)) ([d9d19ce](https://github.com/RalphHightower/repo-automation-bots/commit/d9d19ce7a46c7b605ce46dc489c05c16bd8d7c9b))
+* **deps:** update gcf-utils to v17 ([#5695](https://github.com/RalphHightower/repo-automation-bots/issues/5695)) ([0dbb4c6](https://github.com/RalphHightower/repo-automation-bots/commit/0dbb4c697894c78121bc37c37c31ab5d9158c0b6))
+* **fix-bot-utils:** regenerate package-lock.json ([#5882](https://github.com/RalphHightower/repo-automation-bots/issues/5882)) ([e6e3244](https://github.com/RalphHightower/repo-automation-bots/commit/e6e3244db2038f7ea9083ab463375e811115677c))
+
 ## [9.0.0](https://github.com/googleapis/repo-automation-bots/compare/bot-config-utils-v8.0.0...bot-config-utils-v9.0.0) (2025-03-12)
 
 

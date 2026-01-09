@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.4](https://github.com/RalphHightower/repo-automation-bots/compare/flakybot-v1.2.3...flakybot-v1.2.4) (2025-08-02)
+
+
+### Bug Fixes
+
+* **deps:** update golang/x/net to 0.33.0 ([#5639](https://github.com/RalphHightower/repo-automation-bots/issues/5639)) ([5e55922](https://github.com/RalphHightower/repo-automation-bots/commit/5e5592231d83bd3de0fda18070dadc1aa4722bf0))
+* **deps:** update to gcf-utils v16 ([#5481](https://github.com/RalphHightower/repo-automation-bots/issues/5481)) ([5a79218](https://github.com/RalphHightower/repo-automation-bots/commit/5a792185c8a27ef673f8667951539cb258ac40c7))
+* security vulnerability for form data indirect dependency ([#5870](https://github.com/RalphHightower/repo-automation-bots/issues/5870)) ([dda7955](https://github.com/RalphHightower/repo-automation-bots/commit/dda795521b72510f697e6e3165b38e37102d8930))
+* update base node image for flakybot to node:18-slim ([#5289](https://github.com/RalphHightower/repo-automation-bots/issues/5289)) ([15ba411](https://github.com/RalphHightower/repo-automation-bots/commit/15ba411cb15d89a32bc8fde20ba782248779e778))
+
 ## [1.2.3](https://github.com/googleapis/repo-automation-bots/compare/flakybot-v1.2.2...flakybot-v1.2.3) (2025-02-21)
 
 

@@ -87,6 +87,38 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [18.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/gcf-utils-v17.1.1...gcf-utils-v18.0.0) (2025-08-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* octokit request/request-error sec vuln fixes
+* **deps:** update google-cloud library major versions ([#5463](https://github.com/RalphHightower/repo-automation-bots/issues/5463))
+* require node 18
+* remove `addOrUpdateIssueComment` which is moved to issue-utils.
+
+### Features
+
+* add ability to configure app to skip throttling on rate limits ([#5517](https://github.com/RalphHightower/repo-automation-bots/issues/5517)) ([fc03235](https://github.com/RalphHightower/repo-automation-bots/commit/fc0323503fb62dfa0873e58aaf2b701273103d0f))
+* allow overriding the service account for background tasks ([4667a4e](https://github.com/RalphHightower/repo-automation-bots/commit/4667a4e5a9989bafdc1699741b916dca8983a9bf))
+* **gcf-utils:** handle global allow/blocklists ([#5841](https://github.com/RalphHightower/repo-automation-bots/issues/5841)) ([a6cf229](https://github.com/RalphHightower/repo-automation-bots/commit/a6cf2297905cf8fcda0fdb2fe4cd6acf697728a7))
+* handle BOT_NAME and BOT_LOCATION configuration via env ([#5583](https://github.com/RalphHightower/repo-automation-bots/issues/5583)) ([2bbb00c](https://github.com/RalphHightower/repo-automation-bots/commit/2bbb00c155f1eebfd55395964f105b1dd1742dcb))
+* remove `addOrUpdateIssueComment` which is moved to issue-utils. ([057125e](https://github.com/RalphHightower/repo-automation-bots/commit/057125e0fe11d6a6b6b2498e27a1cdb87b404593))
+* require node 18 ([057125e](https://github.com/RalphHightower/repo-automation-bots/commit/057125e0fe11d6a6b6b2498e27a1cdb87b404593))
+
+
+### Bug Fixes
+
+* **deps:** lock octokit/graphql to commonjs version ([#5471](https://github.com/RalphHightower/repo-automation-bots/issues/5471)) ([47d51a3](https://github.com/RalphHightower/repo-automation-bots/commit/47d51a3b47f5176fc8c699ca0744d70a040e5569))
+* **deps:** update google-cloud library major versions ([#5463](https://github.com/RalphHightower/repo-automation-bots/issues/5463)) ([1319a61](https://github.com/RalphHightower/repo-automation-bots/commit/1319a6150545685487be5469b7ce7fa0d6ea469d))
+* ensure that Cloud Function URL uses underscored name of bot ([2bbb00c](https://github.com/RalphHightower/repo-automation-bots/commit/2bbb00c155f1eebfd55395964f105b1dd1742dcb))
+* **gcf-utils:** Updates form-data to fix security vulnerability. ([#5866](https://github.com/RalphHightower/repo-automation-bots/issues/5866)) ([#5868](https://github.com/RalphHightower/repo-automation-bots/issues/5868)) ([84dde2b](https://github.com/RalphHightower/repo-automation-bots/commit/84dde2ba913fd4a7a1ae8e6225dcb58f72047b3a))
+* getAuthenticatedOctokit is a standalone method ([#5235](https://github.com/RalphHightower/repo-automation-bots/issues/5235)) ([0f95e5a](https://github.com/RalphHightower/repo-automation-bots/commit/0f95e5a7f5cb906b3ec11a9948400476ada156a5))
+* handleScheduledRepository to skip suspended repositories ([#5539](https://github.com/RalphHightower/repo-automation-bots/issues/5539)) ([bf770a1](https://github.com/RalphHightower/repo-automation-bots/commit/bf770a16ed57f20ca0b0c498332d3509b78e31c4))
+* need to pass in string to webhooks.verify ([#5673](https://github.com/RalphHightower/repo-automation-bots/issues/5673)) ([eb5c6c5](https://github.com/RalphHightower/repo-automation-bots/commit/eb5c6c55abc728a6b126931960cc87fa3815acee))
+* octokit request/request-error sec vuln fixes ([232ca85](https://github.com/RalphHightower/repo-automation-bots/commit/232ca854b74efbb13b199051db11d98812a02edc))
+* set default taskTargetName based on runtime environment ([#5585](https://github.com/RalphHightower/repo-automation-bots/issues/5585)) ([53ab7ec](https://github.com/RalphHightower/repo-automation-bots/commit/53ab7ecb05492b8f3cf46f0a77fbd88727dfffb0))
+
 ## [17.1.1](https://github.com/googleapis/repo-automation-bots/compare/gcf-utils-v17.1.0...gcf-utils-v17.1.1) (2025-07-28)
 
 

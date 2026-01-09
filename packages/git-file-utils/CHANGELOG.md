@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.0.0](https://github.com/RalphHightower/repo-automation-bots/compare/git-file-utils-v3.0.0...git-file-utils-v4.0.0) (2025-08-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** update octokit/rest to v20 ([#5680](https://github.com/RalphHightower/repo-automation-bots/issues/5680))
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225))
+
+### Features
+
+* require node 18 ([#5225](https://github.com/RalphHightower/repo-automation-bots/issues/5225)) ([b2f851a](https://github.com/RalphHightower/repo-automation-bots/commit/b2f851a741d191719f2e3840b09e4230de9826f9))
+
+
+### Bug Fixes
+
+* **deps:** update octokit/rest to v20 ([#5680](https://github.com/RalphHightower/repo-automation-bots/issues/5680)) ([0b37656](https://github.com/RalphHightower/repo-automation-bots/commit/0b3765620e4e6240153484d0621db7ff8738d139))
+
 ## [3.0.0](https://github.com/googleapis/repo-automation-bots/compare/git-file-utils-v2.0.0...git-file-utils-v3.0.0) (2025-02-26)
 
 
